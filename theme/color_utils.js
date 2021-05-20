@@ -1,0 +1,71 @@
+export var ScreenBackgroundColor = '#ffffff'
+export var ScreenBackgroundColor0 = '#2948ff'
+export var ScreenBackgroundColor1 = '#ffffff'
+export var ScreenBackgroundColor2 = '#6d06ad'
+export var ScreenBackgroundColor3 = '#ffffff'
+export var AccentColor = '#2948ff'
+export var FlashIconColor = '#14CDFB'
+export var AccentColor1 = '#c4c4c4'
+export var AccentColor2 = '#e8e8e8'
+export var AccentColor3 = '#396afc'
+export var AccentColor4 = '#2948ff'
+export var AccentColor5 = '#ed12c0'
+export var TextColor1 = '#303030'
+export var TextColor2 = '#f9f9f9'
+export var TextColor3 = '#797979'
+export var TextColor4 = '#24272b'
+export var TextColor5 = '#7F7F7F'
+export var TextColor6 = '#303030'
+export var TextColor7 = '#2948ff'
+export var Glass1 = 'rgba(255,255,255,0.65)'
+
+export async function switch_theme (is_light) {
+  switch(is_light) {
+    case true:
+      ScreenBackgroundColor = '#ffffff'
+      ScreenBackgroundColor0 = '#2948ff'
+      ScreenBackgroundColor1 = '#ffffff'
+      ScreenBackgroundColor2 = '#6d06ad'
+      ScreenBackgroundColor3 = '#ffffff'
+      AccentColor = '#2948ff'
+      FlashIconColor = '#14CDFB'
+      AccentColor1 = '#c4c4c4'
+      AccentColor2 = '#e8e8e8'
+      AccentColor3 = '#ed12c0'
+      AccentColor4 = '#2948ff'
+      TextColor1 = '#303030'
+      TextColor2 = '#f9f9f9'
+      TextColor3 = '#797979'
+      TextColor4 = '#24272b'
+      TextColor5 = '#7F7F7F'
+      TextColor7 = '#2948ff'
+      Glass1 = 'rgba(255,255,255,0.65)'
+
+      break
+    case false: 
+      ScreenBackgroundColor = '#000'
+      ScreenBackgroundColor0 = '#404040'
+      ScreenBackgroundColor1 = '#121212'
+      ScreenBackgroundColor2 = '#121212'
+      ScreenBackgroundColor3 = '#404040'
+      AccentColor = '#2948ff' //'#6d06ad'
+      // AccentColor = '#14CDFB'
+      FlashIconColor = '#14CDFB'
+      AccentColor1 = '#c4c4c4'
+      AccentColor2 = '#404040'
+      AccentColor3 = '#404040'
+      AccentColor4 = '#ffffff'
+      TextColor1 = '#fff'
+      TextColor2 = '#f9f9f9'
+      TextColor3 = '#797979'
+      TextColor4 = '#fff'
+      TextColor5 = '#7F7F7F'
+      TextColor7 = '#f9f9f9'
+      // Glass1 = '#121212'
+      Glass1 = 'rgba(18,18,18,0.60)'
+        
+      break
+    default:
+      break
+  }
+}
